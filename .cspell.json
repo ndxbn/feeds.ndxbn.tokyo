@@ -1,0 +1,22 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "dictionaries": [
+        "en_US",
+        "softwareTerms",
+        "misc",
+        "typescript",
+        "node",
+        "php",
+        "html",
+        "css",
+        "bash",
+        "fonts",
+        "filetypes",
+        "npm",
+        "names"
+    ],
+    "dictionaryDefinitions": [
+        { "name": "names", "path": "./.dics/names.txt" }
+    ]
+}
