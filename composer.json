@@ -1,0 +1,29 @@
+{
+    "name": "ndxbn/feeds.ndxbn.tokyo",
+    "license": "MIT",
+    "scripts": {
+        "start": "php -S 127.0.0.1:8080",
+        "test": "phpdbg -qrr vendor/bin/phpunit --verbose"
+    },
+    "authors": [
+        {
+            "name": "ndxbn",
+            "email": "sitri.ndxbn@gmail.com"
+        }
+    ],
+    "require": {
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {"Ndxbn\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
