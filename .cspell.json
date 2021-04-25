@@ -18,5 +18,10 @@
     ],
     "dictionaryDefinitions": [
         { "name": "names", "path": "./.dics/names.txt" }
+    ],
+    "ignorePaths": [
+        "vendor",
+        "composer.json",
+        "composer.lock"
     ]
 }
